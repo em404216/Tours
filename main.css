@@ -883,3 +883,140 @@ footer a {
 #toufek-back-to-top:hover .toufek-icon-stack {
   color: #fff;
 }
+
+
+/* cards */
+/* Main container with responsive padding */
+.toufek-tour-cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px; /* Space between cards */
+  justify-content: center;
+  padding: 20px 50px; /* Padding for left and right */
+}
+
+/* Styling for each card */
+.toufek-tour-card {
+  background: #fff;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 5px 15px rgba(255, 165, 0, 0.15);
+  width: calc(33.333% - 30px); /* One third of the container width */
+  margin-bottom: 30px;
+  transition: transform 0.3s ease;
+  font-family: 'Cinzel Decorative', serif;
+  height: 540px; 
+  display: flex;
+  flex-direction: column;
+}
+
+.toufek-tour-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 30px rgba(255, 165, 0, 0.25);
+}
+
+/* Ensuring the image takes the full width and more height */
+.toufek-tour-img {
+  width: 100%;
+  height: 300px; /* Further increased image height */
+  overflow: hidden;
+}
+
+.toufek-tour-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensures the image covers the space without distortion */
+  display: block;
+}
+
+.toufek-tour-content {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-grow: 1;
+}
+
+.toufek-tour-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.toufek-tour-header h4 a {
+  color: #c08000;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+.toufek-tour-price {
+  color: #ffa500;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.toufek-tour-rating {
+  margin-top: 10px;
+  color: #555;
+}
+
+.toufek-rating-score {
+  background-color: #ffa500;
+  color: white;
+  padding: 4px 8px;
+  border-radius: 5px;
+  font-size: 0.85rem;
+  font-weight: bold;
+  margin-right: 6px;
+}
+
+.toufek-tour-description {
+  font-size: 0.95rem;
+  color: #444;
+  margin: 15px 0;
+}
+
+.toufek-tour-meta {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.85rem;
+  color: #666;
+}
+
+.toufek-tour-info i {
+  margin-right: 5px;
+  color: #ffa500;
+}
+
+/* Responsive adjustments */
+@media (max-width: 1024px) {
+  .toufek-tour-card {
+    width: calc(50% - 20px); /* Two cards per row on medium screens */
+  }
+}
+
+@media (max-width: 768px) {
+  .toufek-tour-card {
+    width: calc(50% - 20px); /* Two cards per row on tablets */
+  }
+
+  .toufek-tour-cards-container {
+    padding: 20px 30px; /* Reduced padding */
+  }
+}
+
+@media (max-width: 480px) {
+  .toufek-tour-card {
+    width: 100%; /* One card per row on small screens */
+    height: 500px; /* Increased height for small screens */
+  }
+
+  .toufek-tour-cards-container {
+    padding: 20px 15px; /* Even smaller padding for mobile */
+  }
+}
+
+
+
+
+

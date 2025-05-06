@@ -46,44 +46,27 @@
   </head>
   <body>
     <!-- Navbar -->
-    <nav
-      class="navbar navbar-expand-lg navbar-dark bg-transparent px-4"
-      data-aos="fade-down"
-      data-aos-duration="1000"
-    >
+    <nav class="navbar navbar-expand-lg navbar-dark bg-transparent px-4" data-aos="fade-down" data-aos-duration="1000">
       <div class="container">
-        <a
-          class="navbar-brand"
-          href="#"
-          data-aos="fade-right"
-          data-aos-delay="200"
-        >
+        <a class="navbar-brand" href="#" data-aos="fade-right" data-aos-delay="200">
           <span class="brand-text">Toufek Tours</span>
         </a>
-
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-        >
+    
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div
-          class="collapse navbar-collapse justify-content-end"
-          id="navbarNav"
-        >
+    
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
           <ul class="navbar-nav">
-            <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Destinations</a>
-            </li>
-            <li class="nav-item"><a class="nav-link" href="#">Packages</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+            <li class="nav-item"><a class="nav-link" href="#Home">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#Destinations">Destinations</a></li>
+            <li class="nav-item"><a class="nav-link" href="#Packages">Packages</a></li>
+            <li class="nav-item"><a class="nav-link" href="#Contact">Contact</a></li>
           </ul>
         </div>
       </div>
     </nav>
+    
 
     <!-- Hero Section -->
     <section id="hero">
@@ -103,7 +86,7 @@
           <span>Discover the Real Egypt</span>
         </div>
         <p>Your journey starts with Toufek Tours</p>
-        <a href="#" class="btn btn-primary mt-4">Start Now</a>
+        <a href="#about" class="btn btn-primary mt-4">Start Now</a>
       </div>
     </section>
 
@@ -134,7 +117,7 @@
         </p>
 
         <div class="text-center" data-aos="fade-up" data-aos-delay="300">
-          <a href="#tours" class="btn btn-gold">Explore Tours</a>
+          <a href="#Destinations" class="btn btn-gold">Explore Tours</a>
         </div>
       </div>
     </section>
@@ -175,7 +158,7 @@
 
 
     <!-- Destinations Section -->
-    <section class="py-5" id="destinations" style="background-color: #f7f7f7">
+    <section class="py-5" id="Destinations" style="background-color: #f7f7f7">
       <div class="container">
         <div
           class="text-center mb-4"
@@ -329,72 +312,167 @@
           </div>
           <div class="col-md-6" data-aos="fade-left">
             <h2 class="text-white">Last Minute Offer</h2>
-            <h5 class="text-white">Aerial view of Cape Town with Cape Town Stadium</h5>
-            <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin gravida nibh vel velit auctor aliquet. Curabitur ullamcorper ultricies nisi. Nulla sit amet est sollicitudin, auctor felis eu, tempor arcu.</p>
+            <h5 class="text-white">Discover the Magic of Philae Island – Jewel of the Nile</h5>
+            <p class="text-white">A short motorboat ride from Aswan takes you to this enchanting island. Many tours include it as part of a Nile cruise or day excursion.</p>
             <div  data-aos="fade-up" data-aos-delay="300">
-              <a href="#tours" class="btn btn-gold px-3">Explore Tours</a>
+              <a href="#Packages" class="btn btn-gold px-3">Explore Tours</a>
             </div>
           </div>
         </div>
       </div>
     </section>
     
-    
+    <!-- packages -->
+    <div class="toufek-tour-cards-container" id="Packages">
+      <div class="container">
+        <div
+          class="text-center mb-4"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+        >
+          <h2 class="gold-text">OUR PACKAGES</h2>
+         
+          <div class="gold-underline"></div>
+        </div>
 
-    <!-- Packages Section -->
-    <!-- <section class="py-5" id="packages">
-    <div class="container">
-      <div class="section-title" data-aos="fade-up">Abu simple </div>
-      <div class="row">
-        <div class="col-md-4 mb-4" data-aos="flip-left">
-          <div class="card package-card">
-            <img
-              src="./img/photo_2025-05-04_12-46-17.jpg"
-              class="card-img-top"
-              alt="Adventure"
-            />
-            <div class="card-body">
-              <h5 class="card-title">Adventure Tour</h5>
-              <p class="card-text">
-                Explore jungles, mountains, and rivers with thrilling
-                experiences.
-              </p>
-            </div>
+      
+      </div>
+
+      <!-- 1. Philae Temple Tour -->
+      <div class="toufek-tour-card">
+        <div class="toufek-tour-img">
+          <a href="#"><img src="./img/island-of-philae (1).jpg" alt="Philae Temple"></a>
+        </div>
+        <div class="toufek-tour-content">
+          <div class="toufek-tour-header">
+            <h4><a href="#">Philae Temple Tour</a></h4>
+            <span class="toufek-tour-price">$180</span>
+          </div>
+          <div class="toufek-tour-rating"><span class="toufek-rating-score">9.2</span><span class="toufek-rating-label">Excellent</span></div>
+          <p class="toufek-tour-description">Sail to the sacred island and explore the majestic Temple of Isis with a local guide.</p>
+          <div class="toufek-tour-meta">
+            <div class="toufek-tour-info"><i class="dripicons-clock"></i> 1 Day</div>
+            <div class="toufek-tour-info"><i class="dripicons-user-id"></i> 12+</div>
           </div>
         </div>
-        <div class="col-md-4 mb-4" data-aos="flip-left" data-aos-delay="100">
-          <div class="card package-card">
-            <img
-              src="./img/photo_2025-05-04_12-46-22.jpg"
-              class="card-img-top"
-              alt="Luxury"
-            />
-            <div class="card-body">
-              <h5 class="card-title">Luxury Tour</h5>
-              <p class="card-text">
-                Enjoy 5-star resorts, fine dining, and private excursions.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4 mb-4" data-aos="flip-left" data-aos-delay="200">
-          <div class="card package-card">
-            <img
-              src="./img/photo_2025-05-04_12-48-38.jpg"
-              class="card-img-top"
-              alt="Culture"
-            />
-            <div class="card-body">
-              <h5 class="card-title">Cultural Tour</h5>
-              <p class="card-text">
-                Immerse yourself in history, art, and local traditions.
-              </p>
-            </div>
-          </div>
+        <div  class="d-flex  justify-content-center my-4" data-aos="fade-up" data-aos-delay="300">
+          <a href="./contact.html" class="btn btn-gold px-3">BOOK NOW</a>
         </div>
       </div>
+    
+      <!-- 2. Abu Simbel Temples -->
+      <div class="toufek-tour-card">
+        <div class="toufek-tour-img">
+          <a href="#"><img src="./img/Abu Simbel, Egypt.jpeg" alt="Abu Simbel"></a>
+        </div>
+        <div class="toufek-tour-content">
+          <div class="toufek-tour-header">
+            <h4><a href="#">Abu Simbel Adventure</a></h4>
+            <span class="toufek-tour-price">$300</span>
+          </div>
+          <div class="toufek-tour-rating"><span class="toufek-rating-score">9.5</span><span class="toufek-rating-label">Top Rated</span></div>
+          <p class="toufek-tour-description">Visit Ramses II's majestic temples on a full-day desert journey with guided narration.</p>
+          <div class="toufek-tour-meta">
+            <div class="toufek-tour-info"><i class="dripicons-clock"></i> 1 Day</div>
+            <div class="toufek-tour-info"><i class="dripicons-user-id"></i> 14+</div>
+          </div>
+        </div>
+        <div  class="d-flex  justify-content-center my-4" data-aos="fade-up" data-aos-delay="300">
+          <a href="./contact.html" class="btn btn-gold px-3">BOOK NOW</a>
+        </div>
+      </div>
+    
+      <!-- 3. Nubian Village Visit -->
+      <div class="toufek-tour-card">
+        <div class="toufek-tour-img">
+          <a href="#"><img src="./img/nubian.jpg" alt="Nubian Village"></a>
+        </div>
+        <div class="toufek-tour-content">
+          <div class="toufek-tour-header">
+            <h4><a href="#">Nubian Village Experience</a></h4>
+            <span class="toufek-tour-price">$110</span>
+          </div>
+          <div class="toufek-tour-rating"><span class="toufek-rating-score">8.8</span><span class="toufek-rating-label">Great</span></div>
+          <p class="toufek-tour-description">Enjoy a cultural trip with boat ride, traditional houses, and local hospitality.</p>
+          <div class="toufek-tour-meta">
+            <div class="toufek-tour-info"><i class="dripicons-clock"></i> Half Day</div>
+            <div class="toufek-tour-info"><i class="dripicons-user-id"></i> All Ages</div>
+          </div>
+        </div>
+        <div  class="d-flex  justify-content-center my-4" data-aos="fade-up" data-aos-delay="300">
+          <a href="./contact.html" class="btn btn-gold px-3">BOOK NOW</a>
+        </div>
+      </div>
+    
+      <!-- 4. Aswan High Dam -->
+      <div class="toufek-tour-card">
+        <div class="toufek-tour-img">
+          <a href="#"><img src="./img/highdam….jpg" alt="High Dam"></a>
+        </div>
+        <div class="toufek-tour-content">
+          <div class="toufek-tour-header">
+            <h4><a href="#">High Dam & Engineering Tour</a></h4>
+            <span class="toufek-tour-price">$75</span>
+          </div>
+          <div class="toufek-tour-rating"><span class="toufek-rating-score">8.3</span><span class="toufek-rating-label">Good</span></div>
+          <p class="toufek-tour-description">Discover the massive structure that changed Egypt’s history. A must for curious minds!</p>
+          <div class="toufek-tour-meta">
+            <div class="toufek-tour-info"><i class="dripicons-clock"></i> 2 Hours</div>
+            <div class="toufek-tour-info"><i class="dripicons-user-id"></i> 10+</div>
+          </div>
+        </div>
+        <div  class="d-flex  justify-content-center my-4" data-aos="fade-up" data-aos-delay="300">
+          <a href="./contact.html" class="btn btn-gold px-3">BOOK NOW</a>
+        </div>
+      </div>
+    
+      <!-- 5. Elephantine Island -->
+      <div class="toufek-tour-card">
+        <div class="toufek-tour-img">
+          <a href="#"><img src="./img/elephant.jpg" alt="Elephantine Island"></a>
+        </div>
+        <div class="toufek-tour-content">
+          <div class="toufek-tour-header">
+            <h4><a href="#">Elephantine Island Discovery</a></h4>
+            <span class="toufek-tour-price">$140</span>
+          </div>
+          <div class="toufek-tour-rating"><span class="toufek-rating-score">8.7</span><span class="toufek-rating-label">Recommended</span></div>
+          <p class="toufek-tour-description">Visit one of the oldest inhabited places in Aswan with ancient ruins and peaceful views.</p>
+          <div class="toufek-tour-meta">
+            <div class="toufek-tour-info"><i class="dripicons-clock"></i> 3 Hours</div>
+            <div class="toufek-tour-info"><i class="dripicons-user-id"></i> 10+</div>
+          </div>
+        </div>
+        <div  class="d-flex  justify-content-center my-4" data-aos="fade-up" data-aos-delay="300">
+          <a href="./contact.html" class="btn btn-gold px-3">BOOK NOW</a>
+        </div>
+      </div>
+    
+      <!-- 6. Unfinished Obelisk -->
+      <div class="toufek-tour-card">
+        <div class="toufek-tour-img">
+          <a href="#"><img src="./img/Unfinished Obelisk.jpg" alt="Unfinished Obelisk"></a>
+        </div>
+        <div class="toufek-tour-content">
+          <div class="toufek-tour-header">
+            <h4><a href="#">Unfinished Obelisk Tour</a></h4>
+            <span class="toufek-tour-price">$90</span>
+          </div>
+          <div class="toufek-tour-rating"><span class="toufek-rating-score">8.0</span><span class="toufek-rating-label">Nice</span></div>
+          <p class="toufek-tour-description">See the largest known ancient obelisk and learn about the quarrying techniques of pharaohs.</p>
+          <div class="toufek-tour-meta">
+            <div class="toufek-tour-info"><i class="dripicons-clock"></i> 1 Hour</div>
+            <div class="toufek-tour-info"><i class="dripicons-user-id"></i> 8+</div>
+          </div>
+        </div>
+        <div  class="d-flex  justify-content-center my-4" data-aos="fade-up" data-aos-delay="300">
+          <a href="./contact.html" class="btn btn-gold px-3">BOOK NOW</a>
+        </div>
+      </div>
+    
     </div>
-  </section> -->
+    
+   <!-- info -->
     <section
       class="py-5"
       id="abu-simbel-tour"
@@ -738,10 +816,7 @@
     });
   });
 
-  document.getElementById('toufek-back-to-top').addEventListener('click', function(e) {
-    e.preventDefault();
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-  });
+  
     </script>
   </body>
 </html>
