@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Toufek Tours</title>
+    <title>Awad Toufek Tours</title>
 
     <!-- Google Fonts -->
     <link
@@ -49,7 +49,7 @@
     <nav class="navbar navbar-expand-lg navbar-dark bg-transparent px-4" data-aos="fade-down" data-aos-duration="1000">
       <div class="container">
         <a class="navbar-brand" href="#" data-aos="fade-right" data-aos-delay="200">
-          <span class="brand-text">Toufek Tours</span>
+          <span class="brand-text">Awad Toufek Tours</span>
         </a>
     
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
@@ -85,7 +85,7 @@
           <span>Uncover Ancient Secrets</span>
           <span>Discover the Real Egypt</span>
         </div>
-        <p>Your journey starts with Toufek Tours</p>
+        <p>Your journey starts with Awad Toufek Tours</p>
         <a href="#about" class="btn btn-primary mt-4">Start Now</a>
       </div>
     </section>
@@ -101,7 +101,7 @@
           data-aos="fade-up"
           data-aos-duration="1000"
         >
-          <h2 class="gold-text">About Toufek Tours</h2>
+          <h2 class="gold-text">About Awad Toufek Tours</h2>
           <div class="gold-underline"></div>
         </div>
 
@@ -110,7 +110,7 @@
           data-aos="fade-up"
           data-aos-delay="200"
         >
-          At <strong>Toufek Tours</strong>, we bring history to life. Discover
+          At <strong>Awad Toufek Tours</strong>, we bring history to life. Discover
           Egypt through curated journeys that blend culture, comfort, and
           adventure. From the mysteries of the pyramids to the hidden gems of
           ancient temples, every moment is designed to inspire.
@@ -126,7 +126,7 @@
     <!-- why us -->
     <section class="why-us-section py-5 bg-light" id="why-us">
       <div class="container">
-        <h2 class="why-us-title" data-aos="fade-up">Why Choose Toufek Tours</h2>
+        <h2 class="why-us-title" data-aos="fade-up">Why Choose Awad Toufek Tours</h2>
         <div class="row text-center mt-5">
           <div class="col-md-4 mb-4" data-aos="zoom-in">
             <div class="icon-box">
@@ -294,8 +294,11 @@
 
     <!-- offers -->
 
-    <section class="parallax-section" style="background-image: url('./img/Philae_Island\,_Aswan.jpg'); min-height: 500px; background-position: center; background-attachment: fixed;">
-      <div class="container">
+    <section class="parallax-section" style="background-image: url('./img/Philae_Island,_Aswan.jpg'); min-height: 500px; background-position: center; background-attachment: fixed; position: relative;">
+      <!-- Overlay -->
+      <div class="overlay"></div>
+    
+      <div class="container position-relative">
         <div class="row align-items-center">
           <div class="col-md-6" data-aos="fade-right">
             <img src="https://roam.qodeinteractive.com/wp-content/uploads/2017/08/h3-img-1.png" class="img-fluid" alt="Cape Town Aerial View">
@@ -304,13 +307,14 @@
             <h2 class="text-white">Last Minute Offer</h2>
             <h5 class="text-white">Discover the Magic of Philae Island – Jewel of the Nile</h5>
             <p class="text-white">A short motorboat ride from Aswan takes you to this enchanting island. Many tours include it as part of a Nile cruise or day excursion.</p>
-            <div  data-aos="fade-up" data-aos-delay="300">
+            <div data-aos="fade-up" data-aos-delay="300">
               <a href="#Packages" class="btn btn-gold px-3">Explore Tours</a>
             </div>
           </div>
         </div>
       </div>
     </section>
+    
     
     <!-- packages -->
     <div class="toufek-tour-cards-container" id="Packages">
@@ -559,12 +563,12 @@
     <!-- review -->
    <!-- Review Slide 3 -->
    <section class="reviews-section">
-    <h2 class="reviews-heading">What Travelers Say About Aswan with Toufek Tours</h2>
+    <h2 class="reviews-heading">What Travelers Say About Aswan with Awad Toufek Tours</h2>
     <p class="reviews-subheading">Unforgettable moments by the Nile, trusted by guests from Saudi Arabia and beyond.</p>
     
     <div class="owl-carousel reviews-carousel">
       <div class="review-card">
-        <p>"Toufek Tours made our Cairo trip unforgettable. 5 stars service!"</p>
+        <p>"Awad Toufek Tours made our Cairo trip unforgettable. 5 stars service!"</p>
         <h4>- Aisha M., Jeddah</h4>
       </div>
       <div class="review-card">
@@ -606,7 +610,7 @@
       </div>
       
       <div class="review-card">
-        <p>"The Nile cruise from Aswan to Luxor with Toufek Tours was first-class — elegant rooms and top service."</p>
+        <p>"The Nile cruise from Aswan to Luxor with Awad Toufek Tours was first-class — elegant rooms and top service."</p>
         <h4>- Reem F., Dammam</h4>
       </div>
       
@@ -628,7 +632,7 @@
         <div class="row">
           <!-- Column 1: About -->
           <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
-            <h5 class="luxury-heading small-font text-gold">Toufek Tours</h5>
+            <h5 class="luxury-heading small-font text-gold">Awad Toufek Tours</h5>
             <p class="small-font">
               Experience luxury travel to Egypt’s most awe-inspiring ancient
               sites. Our tours are designed to offer comfort, history, and
@@ -701,7 +705,7 @@
 
         <!-- Copyright & Designed By -->
         <div class="text-center mt-4">
-          <p class="mb-0">© 2025 Toufek Tours. All rights reserved.</p>
+          <p class="mb-0">© 2025 Awad Toufek Tours. All rights reserved.</p>
           <p class="text-gold">Designed by GMT</p>
         </div>
       </div>
@@ -805,6 +809,25 @@
       }
     });
   });
+
+//back to top
+
+document.addEventListener("DOMContentLoaded", function () {
+  const button = document.getElementById("toufek-back-to-top");
+
+  window.addEventListener("scroll", function () {
+    if (window.scrollY > 100) {
+      button.classList.add("show");
+    } else {
+      button.classList.remove("show");
+    }
+  });
+
+  button.addEventListener("click", function (e) {
+    e.preventDefault();
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  });
+});
 
   
     </script>
